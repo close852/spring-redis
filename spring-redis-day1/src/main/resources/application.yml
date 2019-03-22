@@ -1,0 +1,12 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    password: 
+    port: 6379
+    timeout: 0
+  data:
+    redis:
+      repositories:
+        enabled: true
+server:
+  port: 7777
